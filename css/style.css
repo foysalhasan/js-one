@@ -1,0 +1,32 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+button{
+  padding: 10px 25px !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#output{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+
+/* Media Queries */
+@media (max-width:767px){
+  #output{
+    width: 90%;
+  }
+}
